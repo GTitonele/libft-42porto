@@ -6,7 +6,7 @@
 /*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/31 12:59:48 by guilherme         #+#    #+#             */
-/*   Updated: 2026/08/31 14:11:45 by guilherme        ###   ########.fr       */
+/*   Updated: 2026/09/01 12:24:04 by guilherme        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 size_t	ft_strlen(const char *s)
 {
 	int	i;
-	
+
 	i = 0;
 	while (s[i])
 		i++;
