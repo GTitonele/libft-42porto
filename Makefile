@@ -6,7 +6,7 @@
 #    By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/08/31 14:28:06 by guilherme         #+#    #+#              #
-#    Updated: 2026/10/16 11:57:00 by guilherme        ###   ########.fr        #
+#    Updated: 2026/10/16 16:44:44 by guilherme        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,8 +20,8 @@ SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c \
 		ft_toupper.c ft_tolower.c ft_strchr.c \
 		ft_strrchr.c ft_strncmp.c ft_memchr.c \
 		ft_memcmp.c ft_strnstr.c ft_atoi.c \
-		ft_strdup.c
-		
+		ft_calloc.c ft_strdup.c
+
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
