@@ -6,7 +6,7 @@
 /*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 11:38:30 by guilherme         #+#    #+#             */
-/*   Updated: 2026/10/19 11:39:50 by guilherme        ###   ########.fr       */
+/*   Updated: 2026/10/19 12:17:40 by guilherme        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
-	ft_putstr_fd (s, fd);
-	ft_putchar_fd ('\n', fd);
+	ft_putstr_fd(s, fd);
+	ft_putchar_fd('\n', fd);
 }

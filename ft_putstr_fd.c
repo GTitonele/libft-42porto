@@ -6,7 +6,7 @@
 /*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 11:30:34 by guilherme         #+#    #+#             */
-/*   Updated: 2026/10/19 11:49:37 by guilherme        ###   ########.fr       */
+/*   Updated: 2026/10/19 12:17:22 by guilherme        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	ft_putstr_fd(char *s, int fd)
 	i = 0;
 	while (s[i])
 	{
-		ft_putchar_fd (s[i], fd);
+		ft_putchar_fd(s[i], fd);
 		i++;
 	}
 }
