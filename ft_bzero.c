@@ -17,10 +17,10 @@ void	ft_bzero(void *s, size_t n)
 	ft_memset(s, 0, n);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <string.h>
 
-/* int main ()
+int main ()
 {
 	char str1[] = "AAAAA";
 	char str2[] = "AAAAA";
@@ -41,6 +41,7 @@ void	ft_bzero(void *s, size_t n)
 	printf("\n");
 	ft_bzero(str1 + 1, 3);
 	bzero(str2 + 1, 3);
+	printf("Minha funcao: ");
 	i = 0;
 	while (i < 6)
 	{
@@ -48,6 +49,7 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 	printf("\n");
+	printf("Funcao original: ");
 	i = 0;
 	while (i < 6)
 	{
