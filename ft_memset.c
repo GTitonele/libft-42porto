@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/01 10:50:23 by guilherme         #+#    #+#             */
-/*   Updated: 2026/09/01 11:11:39 by guilherme        ###   ########.fr       */
+/*   Created: 2026/11/03 13:56:38 by gbaccell          #+#    #+#             */
+/*   Updated: 2026/11/03 17:47:06 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,15 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+
+/* #include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+	char str1[5] = {0};
+	char str2[5] = {0};
+	
+	printf("%s\n%s\n", (char *)ft_memset(str1, 'a', 4), (char *)memset(str2, 'a', 4));
+	return (0);
+} */

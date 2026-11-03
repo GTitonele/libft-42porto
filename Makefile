@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+         #
+#    By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/08/31 14:28:06 by guilherme         #+#    #+#              #
-#    Updated: 2026/10/20 15:56:41 by guilherme        ###   ########.fr        #
+#    Created: 2026/11/03 13:58:39 by gbaccell          #+#    #+#              #
+#    Updated: 2026/11/03 13:58:41 by gbaccell         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

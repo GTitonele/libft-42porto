@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/31 10:59:27 by guilherme         #+#    #+#             */
-/*   Updated: 2026/08/31 14:11:33 by guilherme        ###   ########.fr       */
+/*   Created: 2026/11/03 13:53:54 by gbaccell          #+#    #+#             */
+/*   Updated: 2026/11/03 15:45:03 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+
+/* #include <stdio.h>
+#include <ctype.h>
+
+int main ()
+{
+	printf("minha funcao: %d, funcao original:%d\n", ft_isalpha ('4'), isalpha('4'));
+	printf("minha funcao: %d, funcao original:%d\n", ft_isalpha ('P'), isalpha('P'));
+	return (0);
+} */

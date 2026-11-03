@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/20 13:06:49 by guilherme         #+#    #+#             */
-/*   Updated: 2026/10/20 13:14:36 by guilherme        ###   ########.fr       */
+/*   Created: 2026/11/03 13:54:26 by gbaccell          #+#    #+#             */
+/*   Updated: 2026/11/03 13:54:27 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

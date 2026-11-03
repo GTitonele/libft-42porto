@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/09 18:21:49 by guilherme         #+#    #+#             */
-/*   Updated: 2026/09/09 18:30:04 by guilherme        ###   ########.fr       */
+/*   Created: 2026/11/03 13:58:26 by gbaccell          #+#    #+#             */
+/*   Updated: 2026/11/03 16:06:17 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
+
+/* #include <stdio.h>
+#include <ctype.h>
+
+int main ()
+{
+	printf("Letra original: %c\n", 'a');
+	printf("minha funcao: %c, funcao original: %c\n", ft_toupper ('a'), toupper('a'));
+	return (0);
+} */

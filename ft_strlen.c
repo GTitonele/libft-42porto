@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/31 12:59:48 by guilherme         #+#    #+#             */
-/*   Updated: 2026/09/01 12:24:04 by guilherme        ###   ########.fr       */
+/*   Created: 2026/11/03 13:57:37 by gbaccell          #+#    #+#             */
+/*   Updated: 2026/11/03 16:18:53 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,14 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+/* #include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+	char str[] = "42Porto";
+
+	printf("minha funcao: %zu, funcao original: %zu\n", ft_strlen(str), strlen(str));
+	return (0);
+} */

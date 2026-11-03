@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: guilherme <guilherme@student.42.fr>        +#+  +:+       +#+        */
+/*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/09 18:24:33 by guilherme         #+#    #+#             */
-/*   Updated: 2026/09/09 18:30:02 by guilherme        ###   ########.fr       */
+/*   Created: 2026/11/03 13:58:21 by gbaccell          #+#    #+#             */
+/*   Updated: 2026/11/03 16:06:30 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,13 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
+
+/* #include <stdio.h>
+#include <ctype.h>
+
+int main ()
+{
+	printf("Letra original: %c\n", 'A');
+	printf("minha funcao: %c, funcao original: %c\n", ft_tolower ('A'), tolower('A'));
+	return (0);
+} */
