@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:54:52 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:54:53 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/04 15:58:00 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,47 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (new_list);
 }
+
+/* #include <stdio.h>
+#include <stdlib.h>
+
+void *to_upper(void *content)
+{
+	char *str, *new_str;
+	int i;
+	
+	str = (char *)content;
+	new_str = ft_strdup(str);
+	i = 0;
+	while (new_str[i])
+	{
+		new_str[i] = ft_toupper(new_str[i]);
+		i++;
+	}
+	return ((void *)new_str);
+}
+
+int main ()
+{
+	t_list *original_list = NULL, *new_list = NULL, *current;
+	
+	ft_lstadd_back(&original_list, ft_lstnew(ft_strdup("primeiro")));
+	ft_lstadd_back(&original_list, ft_lstnew(ft_strdup("segundo")));
+	printf("lista original\n");
+	current = original_list;
+	while (current)
+	{
+		printf("%s\n", (char *)current->content);
+		current = current->next;
+	}
+	
+	new_list = ft_lstmap(original_list, to_upper, free);
+	printf("nova lista\n");
+	current = new_list;
+	while(current)
+	{
+		printf("%s\n", (char *)current->content);
+		current = current->next;
+	}
+	return (0);
+} */
