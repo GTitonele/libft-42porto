@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:56:38 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 17:47:06 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/04 18:34:03 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,6 @@ int main ()
 	char str1[5] = {0};
 	char str2[5] = {0};
 	
-	printf("%s\n%s\n", (char *)ft_memset(str1, 'a', 4), (char *)memset(str2, 'a', 4));
+	printf("minha funcao: %s\nfuncao original: %s\n", (char *)ft_memset(str1, 'a', 4), (char *)memset(str2, 'a', 4));
 	return (0);
 } */

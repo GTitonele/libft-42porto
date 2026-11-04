@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:56:17 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:56:19 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/04 16:45:52 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,19 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+/* 
+#include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+	char s1[] = "42porto";
+	char s1_ft[] = "42porto";
+	char s2[] = "42lisboa";
+	
+	memcpy(s1, s2, 4);
+	printf("funcao original: %s\n", s1);
+	ft_memcpy(s1_ft, s2, 4);
+	printf("minha funcao: %s\n", s1_ft);
+	return (0);
+} */
