@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:27 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:57:29 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 17:38:33 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,16 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[j + i] = '\0';
 	return (j + ft_strlen(src));
 }
+
+/* #include <stdio.h>
+#include <string.h>
+#include <bsd/string.h>
+
+int main ()
+{
+	char s1[] = "42";
+	char s2[] = "porto";
+	printf("funcao original: %zu\n", strlcat(s1, s2, 2));
+	printf("minha funcao: %zu\n", ft_strlcat(s1, s2, 2));
+	return (0);
+} */

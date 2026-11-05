@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:13 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:57:14 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 13:31:24 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,17 @@ char	*ft_strdup(const char *s)
 	copy[i] = '\0';
 	return (copy);
 }
+
+/* #include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char *str = "42porto";
+	char *str1 = strdup(str);
+	char *str2 = ft_strdup(str);
+
+	printf("funcao original: %s\n", str1);
+	printf("minha funcao: %s\n", str2);
+	return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:37 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 16:18:53 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:08:08 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ int main ()
 {
 	char str[] = "42Porto";
 
-	printf("minha funcao: %zu, funcao original: %zu\n", ft_strlen(str), strlen(str));
+	printf("minha funcao: %zu, funcao original: 
+			%zu\n", ft_strlen(str), strlen(str));
 	return (0);
 } */

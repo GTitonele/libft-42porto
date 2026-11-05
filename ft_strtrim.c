@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:58:06 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:58:08 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 18:50:44 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,15 @@ char	*ft_strtrim(char const *s1, char const *set)
 		end--;
 	return (ft_substr(s1, start, end - start));
 }
+
+/* #include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char s1[] = "42porto";
+	char s2[] = "t4o2";
+	
+	printf("%s\n", ft_strtrim(s1, s2));
+	return (0);
+} */

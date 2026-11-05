@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:02 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:57:04 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:07:55 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,3 +75,15 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (fill_words(arr, s, c));
 }
+
+/* #include <stdio.h>
+
+int main()
+{
+	char **split = ft_split("eu vou tomar um 
+			cafe no almoco enquanto fumo um cigarro", ' ');
+	
+	for(int i = 0; split[i]; i++)
+		printf("%s\n", split[i]);
+	return (0);
+} */

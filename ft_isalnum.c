@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:53:47 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 15:37:58 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:06:32 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ int	ft_isalnum(int c)
 
 int main ()
 {
-	printf("minha funcao: %d, funcao original:%d\n", ft_isalnum ('4'), isalnum('4'));
-	printf("minha funcao: %d, funcao original:%d\n", ft_isalnum ('@'), isalnum('@'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isalnum ('4'), isalnum('4'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isalnum ('@'), isalnum('@'));
 	return (0);
 } */

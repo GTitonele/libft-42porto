@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:58:26 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 16:06:17 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:08:22 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int	ft_toupper(int c)
 int main ()
 {
 	printf("Letra original: %c\n", 'a');
-	printf("minha funcao: %c, funcao original: %c\n", ft_toupper ('a'), toupper('a'));
+	printf("minha funcao: %c, funcao original: 
+			%c\n", ft_toupper ('a'), toupper('a'));
 	return (0);
 } */

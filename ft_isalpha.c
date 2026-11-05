@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:53:54 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 15:45:03 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:06:41 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ int	ft_isalpha(int c)
 
 int main ()
 {
-	printf("minha funcao: %d, funcao original:%d\n", ft_isalpha ('4'), isalpha('4'));
-	printf("minha funcao: %d, funcao original:%d\n", ft_isalpha ('P'), isalpha('P'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isalpha ('4'), isalpha('4'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isalpha ('P'), isalpha('P'));
 	return (0);
 } */

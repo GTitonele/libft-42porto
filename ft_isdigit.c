@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:54:04 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 15:46:15 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:07:24 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ int	ft_isdigit(int c)
 
 int main ()
 {
-	printf("minha funcao: %d, funcao original:%d\n", ft_isdigit ('4'), isdigit('4'));
-	printf("minha funcao: %d, funcao original:%d\n", ft_isdigit ('P'), isdigit('P'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isdigit ('4'), isdigit('4'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isdigit ('P'), isdigit('P'));
 	return (0);
 } */

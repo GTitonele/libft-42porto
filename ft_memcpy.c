@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:56:17 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/04 16:45:52 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 13:17:56 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/* 
-#include <stdio.h>
+
+/* #include <stdio.h>
 #include <string.h>
 
 int main ()

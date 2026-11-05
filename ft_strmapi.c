@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:42 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:57:44 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:03:15 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,19 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	new[i] = '\0';
 	return (new);
 }
+
+/* #include <stdio.h>
+#include <string.h>
+
+char ft_upper(unsigned int i, char c)
+{
+	(void)i;
+	return (ft_toupper(c));
+}
+int main ()
+{
+	char s1[] = "42porto";
+	printf("string original: %s\n", s1);
+	printf("string apos funcao: %s\n", ft_strmapi(s1, ft_upper));
+	return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:58:21 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 16:06:30 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:08:17 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int	ft_tolower(int c)
 int main ()
 {
 	printf("Letra original: %c\n", 'A');
-	printf("minha funcao: %c, funcao original: %c\n", ft_tolower ('A'), tolower('A'));
+	printf("minha funcao: %c, funcao original: 
+			%c\n", ft_tolower ('A'), tolower('A'));
 	return (0);
 } */

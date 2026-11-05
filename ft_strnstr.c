@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:53 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 13:57:55 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 18:12:29 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,15 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+/* #include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char s1[] = "42porto";
+	char s2[] = "por";
+
+	printf("minha funcao: %s\n", ft_strnstr(s1, s2, 6));
+	return (0);
+} */

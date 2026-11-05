@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:53:59 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/03 15:50:08 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:07:06 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ int	ft_isascii(int c)
 
 int main ()
 {
-	printf("minha funcao: %d, funcao original:%d\n", ft_isascii ('4'), isascii('4'));
-	printf("minha funcao: %d, funcao original:%d\n", ft_isascii (-1), isascii(-1));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isascii ('4'), isascii('4'));
+	printf("minha funcao: %d, funcao original:%d\n", 
+			ft_isascii (-1), isascii(-1));
 	return (0);
 } */
