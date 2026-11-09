@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:58:12 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/05 18:34:14 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:33:03 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,16 +28,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(sub, s + start, len + 1);
 	return (sub);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-
-int main()
-{
-	char s1[] = "42porto";
-	char *s2 = ft_substr(s1, 2, 8);
-
-	printf("string: %s\n", s1);
-	printf("substring: %s\n", s2);
-	return (0);
-} */

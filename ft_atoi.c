@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:52:33 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/05 19:06:07 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:29:21 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,17 +38,3 @@ int	ft_atoi(const char *nptr)
 		num = -num;
 	return (num);
 }
-
-/* #include <stdio.h>
-
-int main ()
-{
-	printf("Minha funcao: %d, funcao original: %d\n", 
-				ft_atoi("-42"), atoi("-42"));
-	printf("Minha funcao: %d, funcao original: %d\n", 
-				ft_atoi("-+42"), atoi("-+42")) ;
-	printf("Minha funcao: %d, funcao original: %d\n", 
-				ft_atoi("42"), atoi("42"));
-	return (0);
-}
- */

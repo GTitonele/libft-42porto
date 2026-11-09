@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:54:15 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/04 11:48:00 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:30:12 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,14 +54,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-
-int main()
-{
-	int n = 42;
-	
-	printf("%s\n", ft_itoa(n));
-	return (0);
-} */

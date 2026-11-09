@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:54:10 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/05 19:07:33 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:30:06 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-/* #include <stdio.h>
-#include <ctype.h>
-
-int main ()
-{
-	printf("minha funcao: %d, funcao original:%d\n", 
-			ft_isprint ('4'), isprint('4'));
-	printf("minha funcao: %d, funcao original:%d\n", 
-			ft_isprint ('\0'), isprint('\0'));
-	return (0);
-} */

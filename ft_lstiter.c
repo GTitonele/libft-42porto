@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:54:43 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/04 13:31:32 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:30:39 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,23 +22,3 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
-
-/* #include <stdio.h>
-#include <stdlib.h>
-
-void print(void *content)
-{
-	char *str = (char *)content;
-	printf("%s\n", str);
-}
-
-int main ()
-{
-	t_list *head = NULL;
-
-	ft_lstadd_back(&head, ft_lstnew(ft_strdup("primeiro")));
-	ft_lstadd_back(&head, ft_lstnew(ft_strdup("segundo")));
-	ft_lstiter(head, print);
-	return (0);
-}
- */

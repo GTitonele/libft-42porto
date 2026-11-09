@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:56:53 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/05 12:13:44 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:31:45 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(nb / 10, fd);
 	ft_putchar_fd((nb % 10) + '0', fd);
 }
-
-/* #include <stdio.h>
-
-int main()
-{
-	ft_putnbr_fd(42, 1);
-	return (0);
-} */

@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:56:33 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/04 18:02:39 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:31:25 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,18 +37,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-
-/* #include <stdio.h>
-#include <string.h>
-
-int main()
-{
-	char data1[] = "abcdefghi";
-	char data2[] = "abcdefghi";
-
-	memmove(data1 + 3, data1, 4);
-	ft_memmove(data2 + 3, data2, 4);
-	printf("funcao original: %s\n", data1);
-	printf("minha funcao: %s\n", data2);
-	return (0);
-} */

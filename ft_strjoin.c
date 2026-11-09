@@ -6,7 +6,7 @@
 /*   By: gbaccell <gbaccell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:57:23 by gbaccell          #+#    #+#             */
-/*   Updated: 2026/11/05 14:51:52 by gbaccell         ###   ########.fr       */
+/*   Updated: 2026/11/05 19:32:21 by gbaccell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,13 +29,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcat(join, s2, total);
 	return (join);
 }
-
-/* #include <stdio.h>
-
-int main()
-{
-	char *s1 = "42";
-	char *s2 = "porto";
-	printf("string completa: %s\n", ft_strjoin(s1, s2));
-	return (0);
-} */
